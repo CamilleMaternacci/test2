@@ -1,0 +1,50 @@
+.calculatorArea {
+	width: 320px;
+	height: 480px;
+	border-radius: 8px;
+	box-shadow: 0 0 5px white;
+	background: rgb(62, 62, 62);
+	background: linear-gradient(90deg, rgba(62, 62, 62, 1) 0%, rgba(156, 156, 158, 1) 53%, rgba(62, 62, 62, 1) 100%);
+	background: rgb(62, 62, 62);
+	background: linear-gradient(90deg, rgba(62, 62, 62, 1) 0%, rgba(128, 128, 142, 1) 53%, rgba(62, 62, 62, 1) 100%);
+
+	.equationArea {
+		display: flex;
+		justify-content: center;
+		padding-top: 2.5em;
+		padding-bottom: 1em;
+		.input {
+			width: 80%;
+			padding: 0.7em;
+			font-size: 2rem;
+			border-radius: 8px;
+			border: none;
+			box-shadow: 0 0 3px rgb(255, 255, 255);
+			background: rgb(0, 67, 157);
+			background: linear-gradient(
+				133deg,
+				rgba(0, 67, 157, 1) 0%,
+				rgba(35, 118, 175, 1) 25%,
+				rgba(19, 97, 150, 1) 50%,
+				rgba(35, 118, 175, 1) 75%,
+				rgba(0, 67, 157, 1) 100%
+			);
+			color: white;
+		}
+	}
+
+	.row {
+		display: flex;
+		justify-content: center;
+		gap: 1.5em;
+		margin-top: 1.5em;
+	}
+
+	.rowSecond {
+		display: flex;
+		justify-content: end;
+		gap: 1.5em;
+		margin-top: 1.5em;
+		padding-right: 1.8em;
+	}
+}
